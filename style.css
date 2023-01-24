@@ -22,4 +22,103 @@ body {
 
 .container {
   background: var(--bg-color);
+  height: 100vh;
+  width: 70%;
+  position: relative;
+  left: 30%;
+}
+
+.about__form {
+  width: 54%;
+}
+
+.pop-up {
+  padding: 1.3em;
+  align-items: center;
+  position: absolute;
+  background-color: #fff;
+  opacity: 0.4;
+  top: 20.5%;
+  width: 44%;
+  left: -44%;
+}
+
+.pop {
+  display: flex;
+  align-items: center;
+  opacity: 1;
+}
+
+.title {
+  font-weight: 900;
+  font-family: sans-serif;
+  font-size: 3vw;
+  line-height: 3rem;
+}
+
+.logo {
+  width: 10vw;
+}
+
+.top {
+  padding: 120px 0 40px 2rem;
+  font-weight: 500;
+}
+
+.follow__qns {
+  margin-top: 1rem;
+}
+
+a {
+  color: var(--button-bg-color);
+  font-weight: 600;
+}
+
+fieldset {
+  background-color: var(--main-bg-cl);
+  border: none;
+  height: 42vh;
+  padding-left: 2em;
+  box-shadow: 3px 4px rgb(225, 225, 225);
+}
+
+.btn {
+  background-color: var(--button-bg-color);
+  padding: 0.6rem 1.6rem;
+  border: none;
+  color: var(--main-bg-cl);
+  border-radius: 5px;
+  font-weight: 500;
+  margin: 1.8rem 2rem;
+}
+
+.foot-note {
+  margin-left: 2rem;
+}
+
+.sec-input {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 1.3rem;
+  gap: 2rem;
+  width: 80%;
+}
+
+.tab-title {
+  margin-top: 0.7rem;
+}
+
+input {
+  width: 100%;
+  padding: 0.1rem;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+input:invalid {
+  border-color: red;
+}
+
+input:valid {
+  border-color: blue;
 }

@@ -122,3 +122,32 @@ input:invalid {
 input:valid {
   border-color: blue;
 }
+
+@media (max-width: 40rem) {
+  .about__form {
+    width: 100%;
+  }
+
+  .top {
+    padding: 40px 0 10px 0.6rem;
+  }
+
+  fieldset {
+    height: 40vh;
+    padding-left: 0.7em;
+  }
+
+  .sec-input {
+    padding: 0.3rem;
+    row-gap: 0.2rem;
+    width: 90%;
+  }
+
+  input {
+    padding: 0;
+  }
+
+  label {
+    font-size: 10px;
+  }
+}

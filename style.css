@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@100;200;300;400;500;600&family=Roboto:wght@100;400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+
+  --bg-color: #f2f4f4;
+  --main-bg-cl: #fff;
+  --border-colors: #3498db;
+  --w-border-color: #e74c3c;
+  --button-bg-color: #229954;
+  --bg-card-color: #000;
+}
+
+body {
+  background-image: url('./images/bg.jpg');
+}
+
+.container {
+  background: var(--bg-color);
+}
